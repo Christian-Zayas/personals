@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Tasks </title>
+   <!-- Color de la app -->
+    <meta name="theme-color" content="#fff" />
+      <!-- Meta etiquetas PWA para movi-->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+     <!-- Meta estiquetas pwa apple-->
+     <meta  name="apple-mobile-web-app-capable" content="yes"/>
+     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+     
+     <meta name="apple-touch-icon" href="/img/img-notes/notes-512.png" />
+     <meta name="apple-touch-startup-image" href="/img/img-notes/notes-512.png" /> 
+     
+     <!-- CODELAB: Add link rel manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Bootswatch -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- fontawesome -->
+     <script src="/js/fontawesome.js" crossorigin="anonymous"></script>
+    <!-- Personals -->
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+    
+    {{> navigation }}
+   
+   {{> message }}
+       {{{ body }}}
+   
+    <script src="/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/OnlineOffline.js"></script>
+</body>
+
+</html>

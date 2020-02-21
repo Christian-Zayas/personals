@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="col-8 mx-auto mt-2">
+        {{#if success_mgs }}
+        <div class="alert alert-dismissible alert-success fade show shadow-lg">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <p class="text-center text-dark text-uppercase">{{ success_mgs }}</p>
+        </div>
+        {{/if }}
+        {{#if error_mgs }}
+        <div class="alert alert-dismissible alert-danger fade show shadow-lg">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <p class="text-center text-dark text-uppercase">{{ error_mgs }}</p>
+        </div>
+        {{/if }}
+         {{#if error }}
+        <div class="alert alert-dismissible alert-danger fade show shadow-lg">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <p class="text-center text-dark text-uppercase">{{ error }}</p>
+        </div>
+        {{/if }}
+    </div>
+
+
+
+    <div class="col-8 mx-auto mt-2">
+        <div class="success"></div>
+        <div class="danger"></div>   
+    </div>
+
+</div>

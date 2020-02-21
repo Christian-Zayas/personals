@@ -1,0 +1,29 @@
+<div class="container my-3">
+    <div class="row">
+      
+        {{#each success}}
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-4">
+            <div class="card border-dark mb-3 shadow-lg h-100">
+                <div class="card-header"> {{ userName }} </div>
+                <div class="card-body">
+                    <h4 class="card-title">{{title}}</h4>
+                    <p class="card-text">{{description}}.</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-end">
+                           <button  class="btn ">
+                                 <a href="/notes/OneTasks/{{_id}}"><i class="fa fa-edit" ></i></a>
+                           </button>
+                          
+                            <form action="/notes/DeleteTasks/{{_id}}?_method=DELETE" method="post">
+                              <button type="submit" class="btn"><i class="fa fa-eraser"></i></button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{/each}}
+    </div>
+</div>

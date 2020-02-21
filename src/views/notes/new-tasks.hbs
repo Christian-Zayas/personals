@@ -1,0 +1,26 @@
+<div class="container">
+    <h1 class="text-center my-3 display-4">Save your tasks</h1>
+    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-3 shadow-lg">
+        <div class="img-card">
+            <img src="/img/undraw_online_calendar_kvu2.svg" class=" img-fluid" alt="Add Tasks">
+        </div>
+        <div class="card-body">
+            <form action="/notes/AddTasks" method="post">
+                <div class="form-group">
+                    <label for="name_tasks">Name from this tasks</label>
+                    <input type="text" name="title" autofocus class="form-control" id="name_tasks" placeholder="Name Tasks" required>
+                </div>
+                <div class="form-group">
+                    <label for="description_tasks">Description from this tasks</label>
+                    <textarea type="text" name="description" placeholder="Description Tasks" class="form-control" rows="3"
+                        id="description_tasks" required>
+                    </textarea>
+                </div>
+                <button class="btn btn-block btn-primary">Save tasks</button>
+            </form>
+        </div>
+        <div class="card-footer">
+            <small>Hello Cristian what your go write today </small>
+        </div>
+    </div>
+</div>

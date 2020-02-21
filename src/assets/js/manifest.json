@@ -1,0 +1,65 @@
+{
+  "name": "Notes Personals",
+  "short_name": "Notes Personals",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "description": "Write your notes personals",
+  "orientation": "any",
+  "Scope": "/notes",
+  "lang": "es-Es",
+  "start_url": "/notes",
+  "icons": [
+    {
+      "src": "/img/img-notes/notes-16.png",
+      "sizes": "68x68",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-32.png",
+      "sizes": "134x134",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-64.png",
+      "sizes": "267x267",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-96.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-128.png",
+      "sizes": "534x534",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-192.png",
+      "sizes": "800x800",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-256.png",
+      "sizes": "1067x1063",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-384.png",
+      "sizes": "1600x1600",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-512.png",
+      "sizes": "2134x2134",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/img-notes/notes-1024.png",
+      "sizes": "4267x4267",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

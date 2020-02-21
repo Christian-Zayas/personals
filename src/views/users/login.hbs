@@ -1,0 +1,27 @@
+<div class="container">
+    <h1 class="text-center my-3 display-4">Create One account</h1>
+    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-3 shadow-lg">
+        <div class="img-card">
+            <img src="/img/undraw_proud_self_1ddv.svg" class="img-fluid mt-2" alt="Add Tasks">
+        </div>
+        <div class="card-body">
+            <form action="/notes/signing" method="post">
+               
+                <div class="form-group">
+                    <label for="name_tasks"> <i class="fa fa-envelope mr-2"></i> Email from this User </label>
+                    <input type="email" name="email" autofocus class="form-control" id="name_tasks" aria-errormessage="No as writer null" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="description_tasks"><i class="fa fa-key mr-2 "></i> Writer password  </label>
+                    <input type="password" name="password" placeholder="Writer password" class="form-control" rows="3"
+                        id="description_tasks" required>
+                    
+                </div>
+                <button class="btn btn-block btn-primary">Save account <i class="fa fa-save ml-2"></i></button>
+            </form>
+        </div>
+        <div class="card-footer">
+            <small>Hello Note Tasks what your go write today </small>
+        </div>
+    </div>
+</div>
